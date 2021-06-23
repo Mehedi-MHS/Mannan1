@@ -1,2 +1,2 @@
 # www.kolim2.cf
-Trying to  a website here
+Trying to host a website here
