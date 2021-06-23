@@ -1,0 +1,223 @@
+/*
+-Responsive.css by Mehedi Hasan Shuvo.
+-Email:mehedishuvo685638@gmail.com
+*/
+
+
+/*media queries for tablet. you can use 749px and near number too.*/
+@media screen and (min-width:600px){
+
+/*====The header====*/
+.nav-btn{
+  display: none;
+  visibility:hidden;
+}
+.navbar{
+  display:-webkit-flex;
+  display:flex;
+  -webkit-justify-content:flex-end;
+  justify-content:flex-end;
+  position: relative;
+  width:100%;
+}
+/**light and dark mode*/
+.navbar-light{
+  background:transparent;
+}
+.navbar-light a{
+  color:rgba(0,0,0,1);
+}
+.navbar-dark{
+  background:transparent;
+}
+.navbar-dark a{
+  color:#ffff;
+}
+/******/
+.navbar a{
+  margin-left:7px;
+  padding:0px 17px 3px 17px;
+  border-right:1px solid silver;
+  display:-webkit-flex;
+  display:flex;
+  -webkit-justify-content:space-between;
+  justify-content:space-between;
+ }
+
+
+/**==The first swiper slider===Hero section=====*/
+.swiper1{
+  height:350px;
+}
+
+.swiper1 .text-container1{
+  line-height:25px;
+  margin-top:25px;
+}
+.swiper1 .text-container1 h1{
+  font-size:2.9rem;
+}
+.swiper1 .text-container1 p{
+  font-size:1.1rem;
+}
+.swiper1 .text-container1 h2{
+  font-weight:300;
+  font-size:3.05rem;
+}
+
+.swiper1 .text-container2{
+  line-height:25px;
+  margin-top:25px;
+}
+.swiper1 .text-comtainer2 h1,.swiper1 .text-container2 h2{
+  font-size:3.1rem;
+}
+.swiper1 .text-container2 p{
+  font-size:1.1rem;
+}
+
+/*isotope items*/
+.gallery-preview .isotope-container1 .isotope-item .imgbg .iso-links a{
+  margin-left:35px;
+  width:60px;
+  height:60px;
+}
+.gallery-preview .isotope-container1 .isotope-item .imgbg .iso-links a i{
+  font-size:30px;
+}
+
+/*quotation-box*/
+.quotations .quotation-container .quotation-box{
+  width:300px;
+  height:110px;
+  border-radius:7px;
+}
+.quotations .quotation-container .quotation-box:before{
+  top:110px;
+  left:150px;
+}
+.quotations .quotation-container .quotation-profile img{
+  width:95px;
+  height:95px;
+}
+/***cv*/
+.cvframe{
+ width:100%;
+ height:450px;
+}
+/****/
+
+
+} /*end of tablet media query
+
+
+/*=======================================*/
+
+
+/*Media queries for desktop*/
+@media screen and (min-width:992px){
+
+ /*Swiper slider1,hero section*/
+ .swiper1{
+   height:460px;
+ }
+
+.swiper1 .text-container1{
+  line-height:35px;
+  margin-top:35px;
+}
+.swiper1 .text-container1 h1{
+  font-size:3.7rem;
+}
+.swiper1 .text-container1 p{
+  font-size:1.5rem;
+}
+.swiper1 .text-container1 h2{
+  font-weight:300;
+  font-size:3.79rem;
+}
+
+.swiper1 .text-container2{
+  line-height:35px;
+  margin-top:35px;
+}
+.swiper1 .text-comtainer2 h1,.swiper1 .text-container2 h2{
+  font-size:3.7rem;
+}
+.swiper1 .text-container2 p{
+  font-size:1.5rem;
+}
+
+
+/* Info section_ trustbox*/
+.info .trustbox{
+  height:295px;
+}
+.info .trustbox .transparent{
+  padding:9px;
+}
+.info .trustbox .transparent h2{
+  font-size:3rem;
+}
+.info .trustbox .transparent p{
+  font-size:1.6rem;
+}
+
+/*accordion*/
+.info .brief-accordion{
+  margin-top:25px;
+}
+
+/*app info*/
+.info .app-bg{
+  height:350px;
+  margin-top:40px;
+}
+
+.info .app-bg .img img{
+  width:70px;
+}
+
+
+/*isotope items*/
+.gallery-preview nav a{
+  font-size:30px;
+}
+.gallery-preview .isotope-container1 .isotope-item .imgbg .iso-links a{
+  margin-left:45px;
+  width:90px;
+  height:90px;
+}
+.gallery-preview .isotope-container1 .isotope-item .imgbg .iso-links a i{
+  font-size:35px;
+}
+
+/*quotation-box*/
+.quotations .quotation-container .quotation-box{
+  width:370px;
+  height:130px;
+  border-radius:7px;
+  padding-left:7px;
+}
+.quotations .quotation-container .quotation-box:before{
+  top:130px;
+  left:185px;
+}
+.quotations .quotation-container .quotation-profile img{
+  width:100px;
+  height:100px;
+}
+.quotations .quotation-container .quotation-text .q-text{
+  font-size:25px;
+}
+/***cv**/
+.cvframe{
+  height:530px;
+}
+
+
+
+
+
+
+} /*end of desktop media query*/

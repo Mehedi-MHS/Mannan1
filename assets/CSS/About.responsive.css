@@ -1,0 +1,85 @@
+/***
+*www.mannan.ml
+*Developer:Mehedi Hasan Shuvo
+*mehedishuvo685638@gmail.com
+***/
+
+
+/*media queries for tablet. you can use 749px and near number too.*/
+@media screen and (min-width:600px){
+
+
+
+
+}
+/**End of tablet query*/
+
+
+
+
+/*Media queries for desktop*/
+@media screen and (min-width:992px){
+
+/*swiper2*/
+
+.swiper2 {
+  height:190px;
+}
+
+.swiper2 .swiper2-content table i{
+  font-size:31px;
+}
+.swiper2 .swiper2-content table .title {
+  font-weight:390;
+  color:#001599;
+  font-size:19px;
+}
+.swiper2 .swiper2-content table .value{
+  font-size:21px;
+}
+.swiper2 .swiper2-content{
+  width:260px;
+  height:150px;
+  border-radius:5px;
+  background:rgba(255,255,255,0.7);
+  box-shadow:0px 0 10px rgba(1,41,112,0.2);
+}
+.line-left-green:before{
+  position:absolute;
+  content:"";
+  width:5px;
+  height:60px;
+  background:#00991e;
+  top:51px;
+  left:0px;
+  border-radius:0 5px 5px 0;
+}
+.line-left-blue:before{
+  position:absolute;
+  content:"";
+  width:5px;
+  height:60px;
+  background:#001599;
+  top:51px;
+  left:0px;
+  border-radius:0 5px 5px 0;
+}
+.line-left-magenta:before{
+  position:absolute;
+  content:"";
+  width:5px;
+  height:60px;
+  background:#e300db;
+  top:51px;
+  left:0px;
+  border-radius:0 5px 5px 0;
+}
+
+
+
+
+}/*End of desktop query*/
+
+
+
+

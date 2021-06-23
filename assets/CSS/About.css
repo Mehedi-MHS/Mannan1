@@ -1,0 +1,104 @@
+/****
+*www.mannan.ml
+*developer:Mehedi Hasan Shuvo
+*mehedishuvo685638@gmail.com
+****/
+
+.main_about{
+ /* background:url("../../assets/img/mannan2.jpg") no-repeat;
+  background-size:cover;*/
+}
+.swiper2 {
+  width:100%;
+  height:150px;
+}
+.swiper2 .swiper2-content table{
+  text-align:center;
+  border-collapse:collapse;
+  width:100%;
+  height:100%;
+}
+.swiper2 .swiper2-content table i{
+  font-size:27px;
+}
+.swiper2 .swiper2-content table .title {
+  font-weight:300;
+  color:#001599;
+  font-size:15px;
+}
+.swiper2 .swiper2-content table .value{
+  font-size:18px;
+}
+.swiper2 .swiper2-content{
+  position:relative;
+  width:220px;
+  height:140px;
+  border-radius:5px;
+  background:rgba(255,255,255,0.7);
+  box-shadow:0px 0 10px rgba(1,41,112,0.2);
+}
+.line-left-green:before{
+  position:absolute;
+  content:"";
+  width:5px;
+  height:50px;
+  background:#00991e;
+  top:45px;
+  left:0px;
+  border-radius:0 5px 5px 0;
+}
+.line-left-blue:before{
+  position:absolute;
+  content:"";
+  width:5px;
+  height:50px;
+  background:#001599;
+  top:45px;
+  left:0px;
+  border-radius:0 5px 5px 0;
+}
+.line-left-magenta:before{
+  position:absolute;
+  content:"";
+  width:5px;
+  height:50px;
+  background:#e300db;
+  top:45px;
+  left:0px;
+  border-radius:0 5px 5px 0;
+}
+/***/
+.more-details{
+  margin-top:25px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.about-details-container{
+  padding:20px 0 20px 10px;
+  border-radius:5px;
+  box-shadow:0px 0 10px rgba(1,41,112,0.2);
+}
+.about-bg-white{
+  background:rgba(255,255,255,0.5);
+  color:rgba(173,133,133,1);
+}
+.about-bg-blue{
+  background:rgba(4,251,239,0.5);
+  color:rgba(15,67,163,1);
+}
+.about-bg-green{
+  background:rgba(0,204,0,0.3);
+  color:rgba(0,102,32,1);
+}
+.about-bg-orange{
+  background:rgba(255,183,0,0.2);
+  color:rgba(178,89,0,1);
+}
+.about-bg-magenta{
+  background:rgba(255,0,209,0.2);
+  color:rgba(153,0,130,1);
+}
+.about-bg-red{
+background:rgba(255,26,26,0.3);
+color:rgba(179,0,0,1);
+}
