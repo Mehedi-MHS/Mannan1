@@ -7,3 +7,4 @@
  * SEOed 
  * Loading speed 91% ⚡
 
+<p>🌐 Visit <a href="https://mannan.ml">mannan.ml</a></p>
