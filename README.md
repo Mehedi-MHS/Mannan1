@@ -1,2 +1,9 @@
 
-Trying to use GitHub page
+# 🛩️Modern portfolio website 
+
+ ### Features
+ * Full responsive
+ * Added dark mode
+ * SEOed 
+ * Loading speed 91% ⚡
+
