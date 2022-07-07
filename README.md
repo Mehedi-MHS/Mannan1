@@ -7,4 +7,4 @@
  * SEOed 
  * Loading speed 91% ⚡
 
-<p>🌐 Visit <a href="https://mannan.ml">mannan.ml</a></p>
+<p>🌐 Visit <a href="https://mehedi-mhs.github.io/Mannan1/">https://mehedi-mhs.github.io/Mannan1/</a></p>
